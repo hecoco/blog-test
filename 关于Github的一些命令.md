@@ -20,6 +20,20 @@
 `git status` <br>
 
 ## 云端操作
+`git push`
+`git pish origin 本地分支名:远程仓库分支名`
+```
+git checkout 本地分支名
+git push -u origin 远程仓库分支名
+```
+`git pull`
+`git clone `
+
+
+
+
+
+
 
 
 <br><br><br><br>
