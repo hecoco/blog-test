@@ -9,8 +9,7 @@
 `git log`查看历史版本<br>
 `git reflog`查看**所有**历史版本<br>
 `git reset --hard 版本号`切换版本<br>
-切换版本前需要你确保你已经`git commit`过了 没有的话可能部分文件会被删除或替换
-<br>
+切换版本前需要你确保你已经`git commit`过了 没有的话可能部分文件会被删除或替换<br>
 `git branch 字符串` 基于当前版本创建分支<br>
 `git branch -d` 删除分支<br>
 `git branch` 查看所有分支<br>
@@ -20,14 +19,11 @@
 `git status` <br>
 
 ## 云端操作
-`git push`
-`git pish origin 本地分支名:远程仓库分支名`
-`
-git checkout 本地分支名
-git push -u origin 远程仓库分支名
-`
+`git push -u origin main` 上传到远程仓库
+`git pish origin 本地分支名:远程仓库分支名` 上传指定分支到远程仓库的指定分支
+`git checkout 本地分支名 git push -u origin 远程仓库分支名 ` 作用同上
 `git pull`
-`git clone `
+`git clone ` 下载/克隆 远程仓库(别人的远程仓库用https,自己的用SSH)
 
 
 
