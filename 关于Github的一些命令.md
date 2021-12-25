@@ -19,11 +19,11 @@
 `git status` <br>
 
 ## 云端操作
-`git push -u origin main` 上传到远程仓库
-`git pish origin 本地分支名:远程仓库分支名` 上传指定分支到远程仓库的指定分支
-`git checkout 本地分支名 git push -u origin 远程仓库分支名 ` 作用同上
-`git pull`
-`git clone ` 下载/克隆 远程仓库(别人的远程仓库用https,自己的用SSH)
+`git push -u origin main` 上传到远程仓库 <br>
+`git pish origin 本地分支名:远程仓库分支名` 上传指定分支到远程仓库的指定分支 <br>
+`git checkout 本地分支名 git push -u origin 远程仓库分支名 ` 作用同上 <br>
+`git pull` <br>
+`git clone ` 下载/克隆 远程仓库(别人的远程仓库用https,自己的用SSH) <br>
 
 
 
