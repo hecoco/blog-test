@@ -26,6 +26,16 @@
 `git clone ` 下载/克隆 远程仓库(别人的远程仓库用https,自己的用SSH) <br>
 
 
+```
+touch ~/.bashrc
+echo 'alias ga="git add"'>> ~/.bashrc
+echo 'alias gc="git commit -v"'>> ~/.bashrc
+echo 'alias gl="git pull"'>> ~/.bashrc
+echo 'alias gp="git push"'>> ~/.bashrc
+echo 'alias gco="git checkout"'>> ~/.bashrc
+echo 'alias gst="git status -sb"'>> ~/.bashrc
+```
+
 
 
 
