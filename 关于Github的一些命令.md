@@ -36,11 +36,5 @@ echo 'alias gco="git checkout"'>> ~/.bashrc
 echo 'alias gst="git status -sb"'>> ~/.bashrc
 ```
 
-
-
-
-
-
-
 <br><br><br><br>
 **等待补充**
