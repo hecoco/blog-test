@@ -34,6 +34,10 @@ echo 'alias gl="git pull"'>> ~/.bashrc
 echo 'alias gp="git push"'>> ~/.bashrc
 echo 'alias gco="git checkout"'>> ~/.bashrc
 echo 'alias gst="git status -sb"'>> ~/.bashrc
+
+alias glog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit -- | less"
+
+source ~/.bashrc 添加以上代码后需要运行这一行才能生效
 ```
 
 <br><br><br><br>
