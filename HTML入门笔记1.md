@@ -1,3 +1,22 @@
+#### HTMl发明者
+蒂莫西·约翰·伯纳斯-李爵士(Sir Timothy John Berners-Lee)在1989年提出基于互联网的超文本系统。在1990年底写出浏览器和服务器软件。为初代HTML。
+
+
+#### HTML起手式
+<!DOCTYPE html>===>表示文本内容为HTML
+<html lang="cn-ZH">===>语言使用中文简体
+<meta charset="UTF-8">===>告诉浏览器使用“UTF-8”的编码格式
+<title>Document</title>===>网页标题
+
+
+#### 常用章节标签
+
+#### 全局属性
+
+#### 常用内容标签
+
+
+
 #### 标签
 style===一般是在head使用,CSS样式
 
