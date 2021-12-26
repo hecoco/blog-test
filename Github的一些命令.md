@@ -25,6 +25,14 @@
 `git pull` <br>
 `git clone ` 下载/克隆 远程仓库(别人的远程仓库用https,自己的用SSH) <br>
 
+blog 本地分支分别上传到两个远程分支
+git push origin main:main
+git push origin main:vip
+
+
+
+
+
 
 ```
 touch ~/.bashrc
