@@ -1,0 +1,50 @@
+#### HTMl发明者
+蒂莫西·约翰·伯纳斯-李爵士(Sir Timothy John Berners-Lee)在1989年提出基于互联网的超文本系统。在1990年底写出浏览器和服务器软件。为初代HTML。
+
+
+#### HTML起手式
+<!DOCTYPE html>===>表示文本内容为HTML
+<html lang="cn-ZH">===>语言使用中文简体
+<meta charset="UTF-8">===>告诉浏览器使用“UTF-8”的编码格式
+<title>Document</title>===>网页标题
+
+
+#### 常用章节标签
+
+#### 全局属性
+
+#### 常用内容标签
+
+
+
+#### 标签
+style===一般是在head使用,CSS样式
+
+
+div
+a
+p
+h1~h5
+script
+
+#### 属性
+hidden===隐藏标签
+contenteditable=====让内容可编辑;默认为false.
+tabindex===tab键聚焦.从1开始.0是最后一个,-1是不要tab到我,可以是无序的.
+title===鼠标悬浮显示内容
+margin===外边距
+padding===内边距
+
+
+
+#### 样式选择器
+class
+id===不到万不得已不要用id,id是唯一的,多次使用不会报错.
+标签选择器
+
+
+#### 其他
+white-space:nowrap;
+text-overflow:ellipsis;
+overflow:hidden;
+溢出换行最后改成省略号
