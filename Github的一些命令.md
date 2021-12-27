@@ -1,6 +1,8 @@
 `git config --global core.editor 'code --wait'` 
 使用vsCode作为编辑器
 
+新建.gitignore文件 不需要上传的文件名加在里面
+
 ## 本地操作
 `git init` 初始化 <br>
 `git add 文件名` 选择需要提交的内容 删除也需要提交<br>

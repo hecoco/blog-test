@@ -1,5 +1,5 @@
 # 常用标签和属性
-###### a 标签  
+##### a 标签  
 href    跳转网站使用 //google.com ，会自动跳转到使用的http协议  
 #XXX    跳转到标记锚点并置顶  
 **伪协议：**  
@@ -15,13 +15,13 @@ tee:号码
     
 rel=noopener
 
-###### table>thead;tbody;tfoot>th;td   表格
+##### table>thead;tbody;tfoot>th;td   表格
 **css:**  
 table-layout: auto;默认值；等分 fixed;智能平均  
 border-collapse:collapse;合并单元格  
 border-spacing:0;单元格间隔为0  
 
-###### img 标签
+##### img 标签
 alt 当img失效时显示  
 width/height 宽高  
 max-width:100% 响应式布局  
@@ -29,7 +29,7 @@ max-width:100% 响应式布局
 onload 当图片加载成功执行  
 onerror 当图片加载时发生错误执行(可以替换成404)  
 
-###### form 表单
+##### form 表单
 form里面的标签需要有name属性  
 type="submit" 才能提交表单  
 action：跳转到哪一个页面  
@@ -39,7 +39,7 @@ target：与a标签相同
 
 onsubmit 当用户提交表单时触发  
 
-###### input type 属性
+##### input type 属性
 test 文本款  
 password 密码框  
 gender/checkbox：单选/多选 同一组单选/多选需要添加相同name属性  
@@ -53,7 +53,7 @@ onblur  鼠标/光标失去焦点触发
 textarea 多行文本框 默认用户可以改变文本款大小 添加css属性 resize：none；  
 select>option 下拉列表框
 
-###### iframe 标签
+##### iframe 标签
 
 
 ## 属性
