@@ -15,14 +15,14 @@ tee:号码
     
 rel=noopener
 
-##### table>thead;tbody;tfoot>th;td   表格
+##### table>thead;tbody;tfoot>th;tr>td   表格
 **css:**  
 table-layout: auto;默认值；等分 fixed;智能平均  
-border-collapse:collapse;合并单元格  
+border-collapse:collapse;去除内置边框  
 border-spacing:0;单元格间隔为0  
 
 ##### img 标签
-**发送GET请求**
+**发送GET请求**  
 alt 当img失效时显示  
 width/height 宽高  
 max-width:100% 响应式布局  
