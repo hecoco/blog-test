@@ -12,7 +12,8 @@ http-server
 <head>===头部/元数据
     <meta charset="UTF-8">===告诉浏览器使用“UTF-8”的编码格式
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+宽度等于设备的宽度 默认缩放比例一倍 最小缩放一倍 最大缩放一倍 不准缩放
     <title>Document</title>===网页标题
 </head>
 <body>===主体
@@ -22,7 +23,32 @@ http-server
 ```
 
 ## 常用章节标签
+h1~h6
+
+section 章节 一般会包含一个h1~h6标签
+
+article
+
+main
+
+aside
 
 ## 全局属性
+class
+
+id
+
+contenteditable 用户是否可编辑 默认为false
+
+style 使用css属性
+
+tabindex 用tab键来聚焦
+
+hidden 隐藏
 
 ## 常用内容标签
+a 超链接
+strong 加粗
+em 斜体 让用户着重阅读 可嵌套
+code 展示代码
+pre 内容的空格换行都可以展示 不需要用&nbsp <br>等
