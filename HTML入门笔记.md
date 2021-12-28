@@ -23,32 +23,23 @@ http-server
 ```
 
 ## 常用章节标签
-h1~h6
-
-section 章节 一般会包含一个h1~h6标签
-
-article
-
-main
-
-aside
+h1~h6  
+section 章节 一般会包含一个h1~h6标签  
+article  
+main  
+aside  
 
 ## 全局属性
-class
-
-id
-
-contenteditable 用户是否可编辑 默认为false
-
-style 使用css属性
-
-tabindex 用tab键来聚焦
-
-hidden 隐藏
+class  
+id  
+contenteditable=====让内容可编辑;默认为false  
+style 使用css属性  
+tabindex===tab键聚焦；从1开始，0是最后一个，-1是不要tab到我。可以是无序的  
+hidden===隐藏标签    
 
 ## 常用内容标签
-a 超链接
-strong 加粗
-em 斜体 让用户着重阅读 可嵌套
-code 展示代码
-pre 内容的空格换行都可以展示 不需要用&nbsp <br>等
+a 超链接  
+strong 加粗  
+em 斜体 让用户着重阅读 可嵌套  
+code 展示代码  
+pre 内容的空格换行都可以展示 不需要用&nbsp br等  
