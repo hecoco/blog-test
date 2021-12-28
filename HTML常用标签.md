@@ -22,6 +22,7 @@ border-collapse:collapse;合并单元格
 border-spacing:0;单元格间隔为0  
 
 ##### img 标签
+**发送GET请求**
 alt 当img失效时显示  
 width/height 宽高  
 max-width:100% 响应式布局  
