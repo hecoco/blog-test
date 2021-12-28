@@ -23,7 +23,7 @@ http-server
 ```
 
 ## 常用章节标签
-h1~h6  
+h1 h6  标题 h1大到h6小
 section 章节 一般会包含一个h1~h6标签  
 article  
 main  
