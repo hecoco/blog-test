@@ -37,14 +37,23 @@ position:absolute/fixed
 
 ## 盒模型  
 content-box 内容盒 width = 内容  
+指定宽度时，是指定内容的宽度，不包含盒子的边距
 border-box 边框盒 width = 内容 + padding + border  
+指定宽度时，是指定的盒子的宽度（外边距，边框，内边距，内容）
 
 margin 外边距  
 border 边框  
 padding 内边距  
-内容  
+content内容  
 
-width 只含content 或 包含border  
+margin合并只发生在上下外边距，不会合并左右的外边距
+
+
+
+简单说一下盒模型
+CSS的盒模型分两种：content-box和border-box，两个的区别是content-box的宽高是指的content，border-box的宽高是指的外边距 边框 内边距 和 内容。
+
+width 只含content 或 包含border  ？？？
 
 # border 调试大法  
 
