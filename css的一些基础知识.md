@@ -51,4 +51,5 @@ content内容
 CSS的盒模型分两种：content-box和border-box，两个的区别是content-box的宽高是指的content，border-box的宽高是指的 边框 内边距 和 内容。
 
 # border 调试大法  
+# outline 调试大法  
 
