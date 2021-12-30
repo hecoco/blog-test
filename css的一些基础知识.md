@@ -35,25 +35,20 @@ position:absolute/fixed
 浮动是不是脱离了  文档流？？？？？  
 
 
-## 盒模型  
+## 盒模型  box-sizing
 content-box 内容盒 width = 内容  
-指定宽度时，是指定内容的宽度，不包含盒子的边距
 border-box 边框盒 width = 内容 + padding + border  
-指定宽度时，是指定的盒子的宽度（外边距，边框，内边距，内容）
 
 margin 外边距  
 border 边框  
 padding 内边距  
 content内容  
 
-margin合并只发生在上下外边距，不会合并左右的外边距
-
-
+兄弟相邻的两个margin会发生合并，且只发生在上下外边距，不会合并左右的外边距。**padding的上下不会合并。**
+父子之间 在没有border的情况下margin 会与 padding 合并，加上border  overflow:hidden 溢出时隐藏 display:flex 都可以阻止合并
 
 简单说一下盒模型
-CSS的盒模型分两种：content-box和border-box，两个的区别是content-box的宽高是指的content，border-box的宽高是指的外边距 边框 内边距 和 内容。
-
-width 只含content 或 包含border  ？？？
+CSS的盒模型分两种：content-box和border-box，两个的区别是content-box的宽高是指的content，border-box的宽高是指的 边框 内边距 和 内容。
 
 # border 调试大法  
 
