@@ -13,8 +13,8 @@
 在布局中间加X元素，margin-right的值为容器内容的负margin-right
 
 
-最后一个元素的margin会超出容器的宽度，跑到新的一行去了。  
+最后一个items的margin会超出容器的宽度，跑到新的一行去了。  
 方法：给容器一个子元素X，设置margin-right为-margin。  
-容器内的元素多出margin的像素，X元素margin为负数，**margin合并原则**。  
+items多出margin个像素，X元素margin为负数，**margin合并原则**。  
 
 ![平均布局](img/平均布局时.jpg)
