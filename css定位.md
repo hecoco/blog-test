@@ -17,6 +17,8 @@ fixed
 sticky
 
 
+
+
 transition
 
 white-space:nowhite;
