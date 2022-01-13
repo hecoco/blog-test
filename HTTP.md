@@ -21,26 +21,21 @@ Content-Type: 响应体格式
 
 
 ### curl
-curl -v http://127.0.0.1:8888
-设置请求动词    -X POST
-设置请求头      -H 'Name: value'
-设置请求体      -d '内容'
+curl -v http://127.0.0.1:8888  
+设置请求动词    -X POST  
+设置请求头      -H 'Name: value'  
+设置请求体      -d '内容'  
 
-读取请求动词    request.method
-读取路径        request.url 路径，带查询参数
-                request.path 纯路径，不带查询参数
-                request.query 只有查询参数
-读取请求头      request.headers['accept']
+读取请求动词    request.method  
+读取路径        request.url 路径，带查询参数  
+                request.path 纯路径，不带查询参数  
+                request.query 只有查询参数  
+读取请求头      request.headers['accept']  
 读取请求体
 
-设置响应状态码  response.statusCode = 200
-设置响应头      response.setHeader('Content-Type', 'text/html');
-设置响应体      response.write('内容')
-结束响应        response.end();
-
-
-
-
-
+设置响应状态码  response.statusCode = 200  
+设置响应头      response.setHeader('Content-Type', 'text/html');  
+设置响应体      response.write('内容')  
+结束响应        response.end();  
 
 
