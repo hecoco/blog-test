@@ -5,7 +5,7 @@ href    跳转网站使用 //google.com ，会自动跳转到使用的http协议
 **伪协议：**  
 javascript:;    可以实现一个无效的a标签  
 mailto:邮箱  
-tee:号码  
+tel:号码  
 
 **target属性**  
     _blank  在新的窗口打开  

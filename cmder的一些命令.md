@@ -6,7 +6,7 @@ head a.txt  输入/查看文件前十行内容
 head a.txt -n 25  输入/查看前25行内容  
 tail a.txt  输入/查看文件后10行内容  
 tail a.txt -n 25  输入/查看文件后25行内容  
-less  
+less a.txt
 
 ### 增
 touch a.txt    创建一个空文件    如果文件存在则更新文件最后修改时间  
