@@ -1,6 +1,5 @@
 ## URL（Uniform Resource Locators）统一资源定位符
-URL 包含哪几部分，每部分分别有什么作用
-
+### URL 包含哪几部分，每部分分别有什么作用
 协议(HTTP/HTTPS)
 
 域名/IP
@@ -24,10 +23,7 @@ HTTP默认端口号80 HTTPS默认端口号443
 点位的指定锚点
 **锚点是不会提交到服务器的**
 
-
-
-
-DNS 的作用是什么，nslookup 命令怎么用
+### DNS 的作用是什么，nslookup 命令怎么用
 把域名解析成IP地址
 
 

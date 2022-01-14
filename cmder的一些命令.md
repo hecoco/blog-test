@@ -1,11 +1,11 @@
 ## 增删改查
 
 ### 查
-cat a.txt    输入/查看文件全部内容  
-head a.txt    输入/查看文件前十行内容  
-head a.txt -n 25    输入/查看前25行内容  
-tail a.txt    输入/查看文件后10行内容  
-tail a.txt -n 25    输入/查看文件后25行内容  
+cat a.txt  输入/查看文件全部内容  
+head a.txt  输入/查看文件前十行内容  
+head a.txt -n 25  输入/查看前25行内容  
+tail a.txt  输入/查看文件后10行内容  
+tail a.txt -n 25  输入/查看文件后25行内容  
 less  
 
 ### 增
