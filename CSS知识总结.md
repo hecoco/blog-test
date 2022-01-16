@@ -14,14 +14,16 @@ transition:
         transition-delay 过度开始之前需要等待的时间
 
 animation:
-        animation-name
+        @keyframes      声明关键帧
+        animation-name      关键帧名字
         animation-duration  过度动画所需要的时间
         animation-timing-function 过度速度曲线
         animation-delay     过度开始之前需要等待的时间
-        animation-iteration-count 定义动画在结束前运行的次数
-        animation-direction 指示动画是否反向播放
+        animation-iteration-count 定义动画在结束前运行的次数(infinite 无限循环播放)
+        animation-direction 指示动画是否反向播放(alternate)
         animation-fill-mode
-        animation-play-state 定义一个动画是否运行或者暂停
+        animation-play-state 定义一个动画是否运行或者暂停(running运行 paused 停止)
 
+animation 属性不分先后
 
 ### 其他任何你想写的。
