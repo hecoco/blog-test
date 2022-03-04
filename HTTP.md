@@ -33,5 +33,3 @@ curl -v http://127.0.0.1:8888
 设置响应头      response.setHeader('Content-Type', 'text/html');  
 设置响应体      response.write('内容')  
 结束响应        response.end();  
-
-
